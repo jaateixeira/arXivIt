@@ -1,12 +1,10 @@
 
 # arXivIt
-Pre-processes latex working papers for archival at arXiv.org
-
-
+Pre-processes LaTex working papers for archival at arXiv.
 
 **ArXiv** is an online repository of electronic preprints (known as e-prints) in various fields of science, particularly in physics, mathematics, computer science, quantitative biology, quantitative finance, statistics, electrical engineering, systems science, and economics. It is owned and operated by Cornell University. Researchers can submit their papers to arXiv to make them publicly accessible before they are published in peer-reviewed journals. This allows for rapid dissemination of research findings and facilitates open access to scientific literature. ArXiv provides a platform for researchers to share their work, receive feedback, and establish priority for their discoveries. It has become an essential resource in the scientific community for staying updated on the latest research developments.
 
-**arXivIt** is a script designed to prepare your LaTeX project for submission to arXiv. It automates the process of validating, cleaning, and packaging your project into a `.tar` file that complies with arXiv's strict requirements. This manual explains how to use arXivIt and what it does.
+**arXivIt** is a script designed to prepare your LaTeX project for submission to arXiv. It automates the process of validating, cleaning, and packaging your project into a `.tar` file that complies with arXiv's strict requirements. This manual explains how to use arXivIt and what it does. The script is friendly with latex, pdflatex and biblatex/biber. 
 
 ## **Features**
 arXivIt performs the following tasks to ensure your LaTeX project is ready for arXiv submission:
@@ -40,6 +38,9 @@ arXivIt performs the following tasks to ensure your LaTeX project is ready for a
 
 10. **Validates `.bbl` File**:
     - Ensures the `.bbl` file matches the name of the main `.tex` file for proper reference processing.
+
+11. **Removes comments**:
+    - Will ask if you want to remove latex comments (lines starting with %)
 
 ---
 
